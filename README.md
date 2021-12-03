@@ -50,6 +50,26 @@ küçük ise -1 ve eşitlik durumunda 0 döndürülecektir.
 
 ##### Deneme Sınıfı:
 * Deneme sınıfı içinde main metot yazarak aşağıda belirtilenleri yapınız.
-* Aşağıda verilen input.txt dosyasını okuyarak oluşturacağınız nesneleri GeometrikNesne tipinde 
+* Verilen input.txt dosyasını okuyarak oluşturacağınız nesneleri GeometrikNesne tipinde 
 tanımlı olan bir dizi içine sırası ile yerleştiriniz.
+* Son oluşturulan daire nesnesini kullanarak yeni bir daire nesnesi oluşturunuz. 
+Son oluşturulan diktörtgen nesnesini kullanarak yeni bir dikdörtgen nesnesi oluşturunuz.
+Son oluşturulan silindir nesnesini kullanarak yeni bir silindir nesnesi oluşturunuz. 
+Yeni oluşturulan bu nesneleri de diziye ekleyiniz.
+* GeometrikNesne tipinde parametre alan static bir "polymorphicYazdir" metodu yazınız. Bu metotta, 
+parametre olarak gelen nesnenin bilgilerini, cevre ve alan değerlerini yazdırınız. Eğer parametre 
+olarak gelen nesne Silindir nesnesi ise hacim değeri de yazdırılmalıdır. Bu metot, main içinden 
+çağrılacaktır.
+* GeometrikNesne tipinde iki adet parametre alan static bir "karsilastir" metodu yazınız. 
+* Karşılaştır metodunun kullanımını ilk ve son daire nesneleri, son daire ve ondan bir önceki 
+daire nesneleri; ilk ve son dikdörtgen nesneleri, son dikdörtgen ve ondan bir önceki 
+dikdörtgen nesneleri; ilk ve son silindir nesneleri, son silindir ve ondan bir önceki silindir 
+nesnelerinin karşılaştırılması için "main" içinde örnekleyiniz.
+* Son olarak bir adet daha tek boyutlu bir dizi tanımlayarak, bu dizinin içine sırası ile çevre 
+ortalaması (tüm geometrik nesneler göz önüne alınarak), alan ortalaması (tüm geometrik nesneler 
+göz önüne alınarak), hacim ortalaması (silindirler göz önüne alınarak), en küçük çevre değeri, en 
+büyük çevre değeri, en küçük alan değeri, en büyük alan değeri, en küçük hacim değeri ve en 
+büyük hacim değeri bulunarak aktarılmalıdır. (En küçük ve en büyük değerler bulunurken, hacim 
+için silindirler, diğerleri için tüm geometrik nesneler dikkate alınmalıdır.)
+
 
